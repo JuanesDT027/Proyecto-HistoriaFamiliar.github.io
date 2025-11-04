@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memoria y reflexión - Historia Familiar</title>
+    <link rel="stylesheet" href="css/memoria.css" />
+  </head>
+  <body>
+    <!-- Barra de navegación -->
+    <header>
+      <nav class="navbar">
+        <div class="logo">Mi Historia Familiar</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="contexto.html">Contexto histórico</a></li>
+          <li><a href="historia.html">Historia familiar</a></li>
+          <li><a href="memoria.html" class="active">Memoria y reflexión</a></li>
+          <li><a href="fuentes.html">Fuentes</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Carta inicial -->
+    <section class="hero-memoria grad1">
+      <div class="carta">
+        <h1>Memoria y Reflexión</h1>
+        <p class="intro">
+          Querido abuelo, aunque no estuve en cada paso de tu vida, tu historia camina conmigo. Hoy
+          entiendo que tu vida es parte de la mía y de la historia de un país entero.
+        </p>
+      </div>
+    </section>
+
+    <!-- Reflexión -->
+    <section class="reflexion grad2">
+      <div class="cuadro">
+        <h2>Reflexión principal</h2>
+        <p>
+          La memoria familiar nos conecta con nuestras raíces. Las experiencias de Bonifacio Garzón
+          Linares muestran cómo lo personal y lo colectivo se entrelazan en la historia de Colombia.
+        </p>
+        <p>
+          No es solo un relato íntimo: es también una enseñanza sobre resiliencia, esperanza y la
+          fuerza de quienes construyeron nuestro presente.
+        </p>
+      </div>
+    </section>
+
+    <!-- Citas -->
+    <section class="citas grad3">
+      <blockquote class="typewriter">
+        “El recuerdo de mi abuelo no es solo una memoria íntima: es también una ventana a la
+        historia de un país.”
+      </blockquote>
+      <blockquote class="typewriter">
+        “La memoria familiar nos enseña que las grandes transformaciones se entienden también desde
+        lo cotidiano.”
+      </blockquote>
+    </section>
+
+    <!-- Galería polaroid -->
+    <section class="galeria grad4">
+      <h2>Recuerdos en imágenes</h2>
+      <div class="polaroids">
+        <div class="polaroid">
+          <img src="img/recuerdo1.jpg" alt="Foto 1" />
+          <p>
+            Un momento de
+            <br />
+            unión familiar
+          </p>
+        </div>
+        <div class="polaroid">
+          <img src="img/recuerdo2.jpg" alt="Foto 2" />
+          <p>Recuerdos del pueblo</p>
+        </div>
+        <div class="polaroid">
+          <img src="img/recuerdo3.jpg" alt="Foto 3" />
+          <p>La vida en la ciudad</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cierre -->
+    <section class="cierre grad5">
+      <h2>Conclusión</h2>
+      <div class="cuadro">
+        <p>
+          Recordar a Bonifacio Garzón Linares es rendir homenaje a quienes nos antecedieron. Su
+          historia es también la nuestra, y en ella encontramos claves para comprender la Colombia
+          de hoy.
+        </p>
+        <p class="pregunta">
+          ¿Qué recuerdos familiares guardas tú que también forman parte de la historia de nuestro
+          país?
+        </p>
+      </div>
+    </section>
+
+    <!-- Recuerdos de visitantes -->
+    <section class="recuerdos grad2">
+      <h2>Comparte tu recuerdo</h2>
+      <form id="recuerdoForm">
+        <textarea
+          id="recuerdoInput"
+          placeholder="Escribe aquí tu recuerdo familiar..."
+          required
+        ></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <h3>Recuerdos compartidos</h3>
+      <ul id="recuerdosLista"></ul>
+      <button id="borrarRecuerdos" class="btn-borrar">Borrar todos los recuerdos</button>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Autora: Lina María Garzón Torres</p>
+      <p>Curso: Historia Económica de Colombia – 2025</p>
+      <p>© Todos los derechos reservados</p>
+    </footer>
+
+    <script src="js/memoria.js"></script>
+  </body>
+</html>
